@@ -1,0 +1,404 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* === COMMERCE SECTION === */
+.comerce-body {
+    /* border: 2px solid green; */
+    height: auto;
+}
+
+.inner-com {
+    background-image: url("https://www.adzguru.co/services/images/ecommerce-design.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 290px;
+}
+
+.com-trans {
+    background-color: rgba(0, 0, 0, 0.666);
+    height: 290px;
+}
+
+.inner-textcom {
+    /* border: 2px solid red; */
+    width: 80%;
+    color: white;
+    padding-top: 70px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+#trans-h2com {
+    font-size: 19px;
+
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#trans-h1com {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#trans-btncom {
+    width: 26%;
+    height: 70px;
+    font-size: 19px;
+    background-color: rgb(37, 174, 228);
+    border-radius: 30px;
+    color: rgba(245, 222, 179, 0.799);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#trans-btncom a {
+    text-decoration: none;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+}
+
+/* <------ONLINE---------> */
+
+.online-body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.ecommerce-section {
+    /* border: 2px solid green; */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    /* border: 2px solid purple; */
+    max-width: 1200px;
+    text-align: left;
+    position: relative;
+}
+
+.title-line {
+    /* border: 2px solid red; */
+    position: absolute;
+
+    left: -10px;
+    height: 140px;
+    width: 4px;
+    background-color: #2196f3;
+}
+
+.content-box h1 {
+    /* border: 2px solid black; */
+    /* border: 2px solid red; */
+    font-size: 44px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 10px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.highlight {
+    /* border: 2px solid green; */
+    color: #2196f3;
+}
+
+.underline {
+    /* border: 2px solid green; */
+    height: 10px;
+    width: 190px;
+    background-color: #2196f3;
+    border-radius: 5px;
+    margin: 10px 0 30px 10px;
+    position: relative;
+}
+
+.underline::before {
+    content: '•••';
+    position: absolute;
+    left: -40px;
+    top: -18px;
+    color: #2196f3;
+    font-size: 25px;
+}
+
+.text {
+    /* border: 2px solid green; */
+    font-size: 19px;
+    color: #333;
+    line-height: 1.4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.online-btn {
+    /* border: 2px solid purple; */
+    margin-left: 430px;
+}
+
+.btn {
+    /* border: 2px solid green; */
+    /* margin-inline: auto; */
+
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #2196f3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0b7dda;
+}
+
+/* <---------DIGITAL------------> */
+.digital-body {
+    /* border: 2px solid green; */
+    background-color: rgba(112, 110, 110, 0.112);
+    height: 700px;
+    font-family: Arial, sans-serif;
+    /* background: #f9f9f9; */
+    margin: 0;
+    /* padding: 0; */
+}
+
+.section {
+    /* border: 2px solid black; */
+    display: flex;
+    max-width: 1300px;
+    height: 550px;
+    margin: 50px auto;
+    gap: 40px;
+    padding: 70px;
+
+}
+
+.content {
+    /* border: 2px solid purple; */
+    flex: 1;
+}
+
+.content h1 {
+    /* border: 2px solid green; */
+    width: 80%;
+    font-size: 44px;
+    /* font-family: ; */
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.content .highlight {
+    /* border: 2px solid orangered; */
+    font-size: 43px;
+    width: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.highlight:hover {
+    color: rgb(236, 85, 135);
+}
+
+.line {
+    height: 4px;
+    width: 200px;
+    background-color: #007bff;
+    margin: 10px 0 30px;
+}
+
+.content p {
+    /* border: 2px solid green; */
+    width: 85%;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    /* border: 2px solid purple; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.accordion-item {
+    /* border: 2px solid brown; */
+    background: #888;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    font-size: 19px;
+}
+
+.accordion-title span {
+    font-size: 30px;
+
+}
+
+.accordion-title {
+    /* border: 2px solid purple; */
+    height: 40px;
+    background: #888;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-title.blue {
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #3498ff;
+}
+
+.accordion-content {
+    /* border: 1px solid green; */
+    background: white;
+    color: #555;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+
+.accordion-item:not(.active) .accordion-content {
+    display: none;
+}
+
+/* <-----------BUSINESS-----------> */
+.platefrom-body {
+    /* border: 2px solid black; */
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.services-section {
+    /* border: 2px solid    green; */
+    text-align: center;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.services-header h2 {
+    /* border: 2px solid brown; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    /* font-weight: bold; */
+    color: #111;
+}
+
+.services-header .blue-text {
+    color: #3498db;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.underline {
+    /* border: 2px solid green; */
+    width: 190px;
+    height: 3px;
+    background-color: #3498db;
+    margin: 10px auto 20px;
+    border-radius: 5px;
+}
+
+.services-header p {
+    /* border: 2px solid green; */
+    color: #555;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 550px;
+    margin: auto;
+}
+
+.services-boxes {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.service-box {
+    /* border: 2px solid green; */
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 330px;
+    height: 250px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 23px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Hover Effect */
+.service-box:hover {
+    transform: translateY(-0px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.delay1 {
+    animation-delay: 0.4s;
+}
+
+.delay2 {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
